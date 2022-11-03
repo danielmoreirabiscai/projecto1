@@ -234,7 +234,8 @@ SP500dailyReturnsTestQuintile <- apply(SP500dailyReturnsTest, 1, function(x) qua
 SP500dailyReturnsTrainGMR <- apply(SP500dailyReturnsTrain, 1, max)
 SP500dailyReturnsTestGMR <- apply(SP500dailyReturnsTest, 1, max)
 
-
+####################################################################################################################
+#####################ERROR IN THE CODE BELOW, I DON'T KNOW HOW TO FIX IT############################################
 ## B. Estimate the Markowitz’s mean-variance portfolio (MVP) with no short-selling
 library(PortfolioAnalytics)
 library(PerformanceAnalytics)
